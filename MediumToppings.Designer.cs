@@ -42,24 +42,24 @@
             this.Turkey = new System.Windows.Forms.Button();
             this.No = new System.Windows.Forms.Button();
             this.HalfButton = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
+            this.BananaPepper = new System.Windows.Forms.Button();
+            this.BlackOlive = new System.Windows.Forms.Button();
+            this.Garlic = new System.Windows.Forms.Button();
+            this.GreenOlive = new System.Windows.Forms.Button();
+            this.GreenPeppers = new System.Windows.Forms.Button();
+            this.Mushroom = new System.Windows.Forms.Button();
+            this.Onion = new System.Windows.Forms.Button();
+            this.Pepperoncini = new System.Windows.Forms.Button();
+            this.Spinach = new System.Windows.Forms.Button();
+            this.Tomato = new System.Windows.Forms.Button();
             this.HalfBaked = new System.Windows.Forms.Button();
             this.WellDone = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
+            this.Roberto = new System.Windows.Forms.Button();
+            this.DeluxeVeggie = new System.Windows.Forms.Button();
+            this.DeluxeMeat = new System.Windows.Forms.Button();
             this.MedOrder = new System.Windows.Forms.TextBox();
             this.Done = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ExtraCheese
@@ -72,6 +72,7 @@
             this.ExtraCheese.TabIndex = 0;
             this.ExtraCheese.Text = "Extra Cheese";
             this.ExtraCheese.UseVisualStyleBackColor = true;
+            this.ExtraCheese.Click += new System.EventHandler(this.ExtraCheese_Click);
             // 
             // Pepperoni
             // 
@@ -82,6 +83,7 @@
             this.Pepperoni.TabIndex = 1;
             this.Pepperoni.Text = "Pepperoni";
             this.Pepperoni.UseVisualStyleBackColor = true;
+            this.Pepperoni.Click += new System.EventHandler(this.Pepperoni_Click);
             // 
             // Sausage
             // 
@@ -92,6 +94,7 @@
             this.Sausage.TabIndex = 2;
             this.Sausage.Text = "Sausage";
             this.Sausage.UseVisualStyleBackColor = true;
+            this.Sausage.Click += new System.EventHandler(this.Sausage_Click);
             // 
             // ExtraSauce
             // 
@@ -103,6 +106,7 @@
             this.ExtraSauce.TabIndex = 3;
             this.ExtraSauce.Text = "Extra Sauce";
             this.ExtraSauce.UseVisualStyleBackColor = true;
+            this.ExtraSauce.Click += new System.EventHandler(this.ExtraSauce_Click);
             // 
             // NoCheese
             // 
@@ -114,6 +118,7 @@
             this.NoCheese.TabIndex = 4;
             this.NoCheese.Text = "No Cheese";
             this.NoCheese.UseVisualStyleBackColor = true;
+            this.NoCheese.Click += new System.EventHandler(this.NoCheese_Click);
             // 
             // NoSauce
             // 
@@ -125,6 +130,7 @@
             this.NoSauce.TabIndex = 5;
             this.NoSauce.Text = "No Sauce";
             this.NoSauce.UseVisualStyleBackColor = true;
+            this.NoSauce.Click += new System.EventHandler(this.NoSauce_Click);
             // 
             // Ham
             // 
@@ -135,6 +141,7 @@
             this.Ham.TabIndex = 6;
             this.Ham.Text = "Ham";
             this.Ham.UseVisualStyleBackColor = true;
+            this.Ham.Click += new System.EventHandler(this.Ham_Click);
             // 
             // Bacon
             // 
@@ -156,6 +163,7 @@
             this.Capicola.TabIndex = 8;
             this.Capicola.Text = "Capicola";
             this.Capicola.UseVisualStyleBackColor = true;
+            this.Capicola.Click += new System.EventHandler(this.Capicola_Click);
             // 
             // Beef
             // 
@@ -166,6 +174,7 @@
             this.Beef.TabIndex = 9;
             this.Beef.Text = "Beef";
             this.Beef.UseVisualStyleBackColor = true;
+            this.Beef.Click += new System.EventHandler(this.Beef_Click);
             // 
             // Anchovy
             // 
@@ -187,6 +196,7 @@
             this.Turkey.TabIndex = 11;
             this.Turkey.Text = "Turkey";
             this.Turkey.UseVisualStyleBackColor = true;
+            this.Turkey.Click += new System.EventHandler(this.Turkey_Click);
             // 
             // No
             // 
@@ -210,106 +220,117 @@
             this.HalfButton.TabIndex = 13;
             this.HalfButton.Text = "1/2";
             this.HalfButton.UseVisualStyleBackColor = true;
+            this.HalfButton.Click += new System.EventHandler(this.HalfButton_Click);
             // 
-            // button15
+            // BananaPepper
             // 
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(304, 92);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(126, 71);
-            this.button15.TabIndex = 14;
-            this.button15.Text = "Banana Pepper";
-            this.button15.UseVisualStyleBackColor = true;
+            this.BananaPepper.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BananaPepper.Location = new System.Drawing.Point(304, 92);
+            this.BananaPepper.Name = "BananaPepper";
+            this.BananaPepper.Size = new System.Drawing.Size(126, 71);
+            this.BananaPepper.TabIndex = 14;
+            this.BananaPepper.Text = "Banana Pepper";
+            this.BananaPepper.UseVisualStyleBackColor = true;
+            this.BananaPepper.Click += new System.EventHandler(this.BananaPepper_Click);
             // 
-            // button16
+            // BlackOlive
             // 
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(304, 177);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(126, 71);
-            this.button16.TabIndex = 15;
-            this.button16.Text = "Black Olives";
-            this.button16.UseVisualStyleBackColor = true;
+            this.BlackOlive.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BlackOlive.Location = new System.Drawing.Point(304, 177);
+            this.BlackOlive.Name = "BlackOlive";
+            this.BlackOlive.Size = new System.Drawing.Size(126, 71);
+            this.BlackOlive.TabIndex = 15;
+            this.BlackOlive.Text = "Black Olives";
+            this.BlackOlive.UseVisualStyleBackColor = true;
+            this.BlackOlive.Click += new System.EventHandler(this.BlackOlive_Click);
             // 
-            // button17
+            // Garlic
             // 
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(304, 268);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(126, 71);
-            this.button17.TabIndex = 16;
-            this.button17.Text = "Garlic";
-            this.button17.UseVisualStyleBackColor = true;
+            this.Garlic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Garlic.Location = new System.Drawing.Point(304, 268);
+            this.Garlic.Name = "Garlic";
+            this.Garlic.Size = new System.Drawing.Size(126, 71);
+            this.Garlic.TabIndex = 16;
+            this.Garlic.Text = "Garlic";
+            this.Garlic.UseVisualStyleBackColor = true;
+            this.Garlic.Click += new System.EventHandler(this.Garlic_Click);
             // 
-            // button18
+            // GreenOlive
             // 
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(304, 354);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(126, 71);
-            this.button18.TabIndex = 17;
-            this.button18.Text = "Green Olives";
-            this.button18.UseVisualStyleBackColor = true;
+            this.GreenOlive.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GreenOlive.Location = new System.Drawing.Point(304, 354);
+            this.GreenOlive.Name = "GreenOlive";
+            this.GreenOlive.Size = new System.Drawing.Size(126, 71);
+            this.GreenOlive.TabIndex = 17;
+            this.GreenOlive.Text = "Green Olives";
+            this.GreenOlive.UseVisualStyleBackColor = true;
+            this.GreenOlive.Click += new System.EventHandler(this.GreenOlive_Click);
             // 
-            // button19
+            // GreenPeppers
             // 
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(304, 447);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(126, 71);
-            this.button19.TabIndex = 18;
-            this.button19.Text = "Green Peppers";
-            this.button19.UseVisualStyleBackColor = true;
+            this.GreenPeppers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GreenPeppers.Location = new System.Drawing.Point(304, 447);
+            this.GreenPeppers.Name = "GreenPeppers";
+            this.GreenPeppers.Size = new System.Drawing.Size(126, 71);
+            this.GreenPeppers.TabIndex = 18;
+            this.GreenPeppers.Text = "Green Peppers";
+            this.GreenPeppers.UseVisualStyleBackColor = true;
+            this.GreenPeppers.Click += new System.EventHandler(this.GreenPeppers_Click);
             // 
-            // button20
+            // Mushroom
             // 
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(450, 92);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(126, 71);
-            this.button20.TabIndex = 19;
-            this.button20.Text = "Mushroom";
-            this.button20.UseVisualStyleBackColor = true;
+            this.Mushroom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mushroom.Location = new System.Drawing.Point(450, 92);
+            this.Mushroom.Name = "Mushroom";
+            this.Mushroom.Size = new System.Drawing.Size(126, 71);
+            this.Mushroom.TabIndex = 19;
+            this.Mushroom.Text = "Mushroom";
+            this.Mushroom.UseVisualStyleBackColor = true;
+            this.Mushroom.Click += new System.EventHandler(this.Mushroom_Click);
             // 
-            // button21
+            // Onion
             // 
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(450, 177);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(126, 71);
-            this.button21.TabIndex = 20;
-            this.button21.Text = "Onion";
-            this.button21.UseVisualStyleBackColor = true;
+            this.Onion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Onion.Location = new System.Drawing.Point(450, 177);
+            this.Onion.Name = "Onion";
+            this.Onion.Size = new System.Drawing.Size(126, 71);
+            this.Onion.TabIndex = 20;
+            this.Onion.Text = "Onion";
+            this.Onion.UseVisualStyleBackColor = true;
+            this.Onion.Click += new System.EventHandler(this.Onion_Click);
             // 
-            // button22
+            // Pepperoncini
             // 
-            this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(450, 268);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(126, 71);
-            this.button22.TabIndex = 21;
-            this.button22.Text = "Pepperoncini";
-            this.button22.UseVisualStyleBackColor = true;
+            this.Pepperoncini.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pepperoncini.Location = new System.Drawing.Point(450, 268);
+            this.Pepperoncini.Name = "Pepperoncini";
+            this.Pepperoncini.Size = new System.Drawing.Size(126, 71);
+            this.Pepperoncini.TabIndex = 21;
+            this.Pepperoncini.Text = "Pepperoncini";
+            this.Pepperoncini.UseVisualStyleBackColor = true;
+            this.Pepperoncini.Click += new System.EventHandler(this.Pepperoncini_Click);
             // 
-            // button23
+            // Spinach
             // 
-            this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(450, 354);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(126, 71);
-            this.button23.TabIndex = 22;
-            this.button23.Text = "Spinach";
-            this.button23.UseVisualStyleBackColor = true;
+            this.Spinach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Spinach.Location = new System.Drawing.Point(450, 354);
+            this.Spinach.Name = "Spinach";
+            this.Spinach.Size = new System.Drawing.Size(126, 71);
+            this.Spinach.TabIndex = 22;
+            this.Spinach.Text = "Spinach";
+            this.Spinach.UseVisualStyleBackColor = true;
+            this.Spinach.Click += new System.EventHandler(this.Spinach_Click);
             // 
-            // button24
+            // Tomato
             // 
-            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(450, 447);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(126, 71);
-            this.button24.TabIndex = 23;
-            this.button24.Text = "Tomato";
-            this.button24.UseVisualStyleBackColor = true;
+            this.Tomato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tomato.Location = new System.Drawing.Point(450, 447);
+            this.Tomato.Name = "Tomato";
+            this.Tomato.Size = new System.Drawing.Size(126, 71);
+            this.Tomato.TabIndex = 23;
+            this.Tomato.Text = "Tomato";
+            this.Tomato.UseVisualStyleBackColor = true;
+            this.Tomato.Click += new System.EventHandler(this.Tomato_Click);
             // 
             // HalfBaked
             // 
@@ -321,6 +342,7 @@
             this.HalfBaked.TabIndex = 24;
             this.HalfBaked.Text = "Half Baked";
             this.HalfBaked.UseVisualStyleBackColor = true;
+            this.HalfBaked.Click += new System.EventHandler(this.HalfBaked_Click);
             // 
             // WellDone
             // 
@@ -332,36 +354,40 @@
             this.WellDone.TabIndex = 25;
             this.WellDone.Text = "Well Done";
             this.WellDone.UseVisualStyleBackColor = true;
+            this.WellDone.Click += new System.EventHandler(this.WellDone_Click);
             // 
-            // button27
+            // Roberto
             // 
-            this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.Location = new System.Drawing.Point(594, 92);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(126, 71);
-            this.button27.TabIndex = 26;
-            this.button27.Text = "Roberto";
-            this.button27.UseVisualStyleBackColor = true;
+            this.Roberto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Roberto.Location = new System.Drawing.Point(594, 92);
+            this.Roberto.Name = "Roberto";
+            this.Roberto.Size = new System.Drawing.Size(126, 71);
+            this.Roberto.TabIndex = 26;
+            this.Roberto.Text = "Roberto";
+            this.Roberto.UseVisualStyleBackColor = true;
+            this.Roberto.Click += new System.EventHandler(this.Roberto_Click);
             // 
-            // button28
+            // DeluxeVeggie
             // 
-            this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(594, 177);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(126, 71);
-            this.button28.TabIndex = 27;
-            this.button28.Text = "Deluxe Veggie";
-            this.button28.UseVisualStyleBackColor = true;
+            this.DeluxeVeggie.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeluxeVeggie.Location = new System.Drawing.Point(594, 177);
+            this.DeluxeVeggie.Name = "DeluxeVeggie";
+            this.DeluxeVeggie.Size = new System.Drawing.Size(126, 71);
+            this.DeluxeVeggie.TabIndex = 27;
+            this.DeluxeVeggie.Text = "Deluxe Veggie";
+            this.DeluxeVeggie.UseVisualStyleBackColor = true;
+            this.DeluxeVeggie.Click += new System.EventHandler(this.DeluxeVeggie_Click);
             // 
-            // button29
+            // DeluxeMeat
             // 
-            this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.Location = new System.Drawing.Point(594, 268);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(126, 71);
-            this.button29.TabIndex = 28;
-            this.button29.Text = "Deluxe Meat";
-            this.button29.UseVisualStyleBackColor = true;
+            this.DeluxeMeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeluxeMeat.Location = new System.Drawing.Point(594, 268);
+            this.DeluxeMeat.Name = "DeluxeMeat";
+            this.DeluxeMeat.Size = new System.Drawing.Size(126, 71);
+            this.DeluxeMeat.TabIndex = 28;
+            this.DeluxeMeat.Text = "Deluxe Meat";
+            this.DeluxeMeat.UseVisualStyleBackColor = true;
+            this.DeluxeMeat.Click += new System.EventHandler(this.DeluxeMeat_Click);
             // 
             // MedOrder
             // 
@@ -385,40 +411,40 @@
             this.Done.Text = "Done";
             this.Done.UseVisualStyleBackColor = true;
             // 
-            // button31
+            // Clear
             // 
-            this.button31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.ForeColor = System.Drawing.Color.MediumSeaGreen;
-            this.button31.Location = new System.Drawing.Point(789, 467);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(112, 64);
-            this.button31.TabIndex = 31;
-            this.button31.Text = "Clear";
-            this.button31.UseVisualStyleBackColor = true;
+            this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clear.ForeColor = System.Drawing.Color.MediumSeaGreen;
+            this.Clear.Location = new System.Drawing.Point(789, 467);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(112, 64);
+            this.Clear.TabIndex = 31;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = true;
             // 
             // MediumToppings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1133, 530);
-            this.Controls.Add(this.button31);
+            this.Controls.Add(this.Clear);
             this.Controls.Add(this.Done);
             this.Controls.Add(this.MedOrder);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button27);
+            this.Controls.Add(this.DeluxeMeat);
+            this.Controls.Add(this.DeluxeVeggie);
+            this.Controls.Add(this.Roberto);
             this.Controls.Add(this.WellDone);
             this.Controls.Add(this.HalfBaked);
-            this.Controls.Add(this.button24);
-            this.Controls.Add(this.button23);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.Tomato);
+            this.Controls.Add(this.Spinach);
+            this.Controls.Add(this.Pepperoncini);
+            this.Controls.Add(this.Onion);
+            this.Controls.Add(this.Mushroom);
+            this.Controls.Add(this.GreenPeppers);
+            this.Controls.Add(this.GreenOlive);
+            this.Controls.Add(this.Garlic);
+            this.Controls.Add(this.BlackOlive);
+            this.Controls.Add(this.BananaPepper);
             this.Controls.Add(this.HalfButton);
             this.Controls.Add(this.No);
             this.Controls.Add(this.Turkey);
@@ -457,23 +483,23 @@
         private System.Windows.Forms.Button Turkey;
         private System.Windows.Forms.Button No;
         private System.Windows.Forms.Button HalfButton;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button BananaPepper;
+        private System.Windows.Forms.Button BlackOlive;
+        private System.Windows.Forms.Button Garlic;
+        private System.Windows.Forms.Button GreenOlive;
+        private System.Windows.Forms.Button GreenPeppers;
+        private System.Windows.Forms.Button Mushroom;
+        private System.Windows.Forms.Button Onion;
+        private System.Windows.Forms.Button Pepperoncini;
+        private System.Windows.Forms.Button Spinach;
+        private System.Windows.Forms.Button Tomato;
         private System.Windows.Forms.Button HalfBaked;
         private System.Windows.Forms.Button WellDone;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button Roberto;
+        private System.Windows.Forms.Button DeluxeVeggie;
+        private System.Windows.Forms.Button DeluxeMeat;
         private System.Windows.Forms.TextBox MedOrder;
         private System.Windows.Forms.Button Done;
-        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button Clear;
     }
 }
