@@ -37,5 +37,10 @@ namespace LaPizzaPos
             MediumToppings frm = new MediumToppings();
             frm.Show();
         }
+
+        private void Order_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

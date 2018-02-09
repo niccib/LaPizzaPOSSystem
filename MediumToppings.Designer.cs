@@ -410,6 +410,7 @@
             this.Done.TabIndex = 30;
             this.Done.Text = "Done";
             this.Done.UseVisualStyleBackColor = true;
+            this.Done.Click += new System.EventHandler(this.Done_Click);
             // 
             // Clear
             // 

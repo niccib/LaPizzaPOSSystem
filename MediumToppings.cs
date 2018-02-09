@@ -171,5 +171,10 @@ namespace LaPizzaPos
         {
             MedOrder.Text = MedOrder.Text + " HALF BAKED ";
         }
+
+        private void Done_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
